@@ -1,0 +1,259 @@
+*
+{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box; 
+}
+/*Entête et bannière de ma page web*/
+.debut_entete
+{
+    background: url('./img5.png');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+#logo
+{
+    display: inline-block;
+    margin-right: 460px;
+}
+#menu_entête
+{
+    background-color: #a5aacf;
+    box-shadow: 5px 5px 10px ;
+    background-attachment: fixed;
+}
+#menu_entête ul
+{
+    position: absolute;
+	right: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    display: inline-flex;
+    list-style: none;
+}
+#menu_entête ul li
+{
+    margin-top: 0px;
+    margin-right: 18px;
+    padding: 5px;
+}
+#menu_entête ul li a
+{
+    text-decoration: none;
+    color: #543928;
+}
+#menu_entête ul li a:hover
+{
+    color: #d8c6b2;
+    border-bottom: 4px solid #efe7d2;
+}
+.sous_menu_1
+{
+   display: none; 
+}
+#menu_entête ul li:hover .sous_menu_1
+{
+    display: block;
+    position: absolute;
+    margin-top: -5px;
+    margin-left: 180px;
+}
+#menu_entête ul li:hover .sous_menu_1 ul
+{
+    display: block;
+    margin: 10px;
+    background-color:#a5aacf;
+}
+#menu_entête ul li:hover .sous_menu_1 ul li
+{
+    width: 200px;
+    padding: 10px;
+    background: transparent;
+    text-align: left;
+}
+#menu_entête ul li:hover .sous_menu_1 ul li:last-child
+{
+    border-bottom:none;
+}
+.Sous_menu_2
+{
+    display: none;
+}
+.hover_menu_2:hover .Sous_menu_2
+{
+    
+    position:absolute;
+    display: block;
+    margin-top: -30px;
+    margin-left: 430px;
+    background-color:#a5aacf;
+}
+h1
+{
+    margin-top: 250px;
+    margin-left: 400px;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    border-bottom: 2px solid white;
+    width: 500px;
+}
+/*Fin Entête et bannière de ma page web*/
+/* Début de la partie Détail*/
+.milieu_entêtex
+{
+    background:  #e6edf0;
+    background-size: cover;
+    background-position: center;
+    height: 620px;  
+}
+.milieu_entête
+{
+    background:  #e6edf0;
+    background-size: cover;
+    background-position: center;
+    height: 520px;
+}
+.lien_info
+{
+    text-decoration: none;
+    color: #a5aacf;
+}
+.lien_info:hover
+{
+    color: #bf9b53;
+    border-bottom: 4px solid #efe7d2; 
+}
+.liste
+{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 120px;
+    color: #a5aacf;
+}
+.mon_text2 p
+{
+    font-size: 20px;
+    text-align: left;
+    color:black;
+    width: 1000px;
+    margin-left: 100px;
+    position:absolute;
+    margin-top: 25px; 
+}
+.mon_text p
+{
+    font-size: 25px;
+    text-align: left;
+    color: black;
+    width: 650px;
+    margin-left: 300px;
+    position:absolute;
+    margin-top: 25px;
+
+}
+.annonce
+{
+    width: 300px;
+}
+.annonce,.info_detail,.info
+{
+    list-style: none;
+    color: black;
+}
+.info
+{
+    font-size: 30px;
+    color: black;
+}
+.sectionx
+{
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 80px;
+    box-shadow: 10px 5px 10px; 
+}
+
+.section
+{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 80px;
+    box-shadow: 10px 5px 10px;
+}
+.sectionxx
+{
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 470px;
+    box-shadow: 10px 5px 10px; 
+}
+.section2
+{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 470px;
+    box-shadow: 10px 5px 10px;
+}
+.sectionxxx
+{
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 860px;
+    box-shadow: 10px 5px 10px;
+}
+.section3
+{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 860px;
+    box-shadow: 10px 5px 10px;
+}
+/*Début du pied de la page */
+.fin_entête
+{
+    background:  #404240;
+    background-size: cover;
+    background-position: center;
+    height: 240px;
+}
+.titre
+{
+    list-style: none;
+    font-size: 25px;
+}
+.element
+{
+    font-size: 20px;
+    list-style: none;
+}
+.pied ol
+{
+    display: inline-flex;
+}
+.pied ol li
+{
+    margin-right: 40px;
+    color: #a5aacf;
+}
+.pied ol li a
+{
+    text-decoration: none;
+    color: #a5aacf;       /*#a5aacf    #a5aacf*/
+}
+.pied ol li a:hover
+{
+    color: #bf9b53;
+    border-bottom: 4px solid #efe7d2;
+}
+.pied
+{
+    position:absolute;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+/*Début du pied de la page */
+
+
+
