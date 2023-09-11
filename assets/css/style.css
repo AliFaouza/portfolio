@@ -541,8 +541,10 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
-.about img{
-
+.about a{
+background-color: #11dbcf;
+padding: 10px;
+color: whitesmoke;
 }
 /*--------------------------------------------------------------
 # Skills
