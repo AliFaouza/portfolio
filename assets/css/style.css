@@ -546,6 +546,12 @@ background-color: #11dbcf;
 padding: 10px;
 color: whitesmoke;
 }
+.card{
+  background-color: #fff;
+	border-radius: 20px;
+	box-shadow: 2px 3px 5px 3px rgba(0,1,1,.1);
+	margin-bottom: 25px;
+}
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
