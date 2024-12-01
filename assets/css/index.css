@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Container and Section */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #resume {
+    padding-top: 50px;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .section-title h2 {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Resume Layout */
+  .resume-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-column, .right-column {
+    width: 48%;
+  }
+  
+  .left-column h4, .right-column h4 {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .left-column ul, .right-column ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .left-column li, .right-column li {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .left-column a {
+    color: #007bff;
+  }
+  
+  .left-column a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Education Section */
+  .education {
+    margin-top: 20px;
+  }
+  
+  .education-item {
+    margin-bottom: 20px;
+  }
+  
+  .education-item p {
+    font-size: 0.95rem;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  /* Professional Experience Section */
+  .professional-experience {
+    margin-top: 20px;
+  }
+  
+  .experience-item {
+    margin-bottom: 20px;
+  }
+  
+  .experience-item ul {
+    margin-left: 20px;
+  }
+  
+  .experience-item li {
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  .experience-item b {
+    font-weight: bold;
+  }
+  
